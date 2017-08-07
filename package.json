@@ -1,0 +1,22 @@
+{
+  "name": "airplanet",
+  "version": "1.0.0",
+  "description": "first solo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexSukhanov/airplanetSAS.git"
+  },
+  "author": "Alex Sukhanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexSukhanov/airplanetSAS/issues"
+  },
+  "homepage": "https://github.com/AlexSukhanov/airplanetSAS#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
