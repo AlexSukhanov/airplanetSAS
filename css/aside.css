@@ -1,0 +1,30 @@
+.nav {
+    margin-left: 20px;
+}
+
+.aside {
+    /* background-color:green; */
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.nav-link__text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #1c5bc3;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+
+/* .nav-link__icon-main {
+    background-image: url("images/icons/main_icon_black.png")
+} */
+
+
+/* .black {
+    color: #221f1f;
+} */

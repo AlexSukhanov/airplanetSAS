@@ -1,0 +1,9 @@
+.main-containt {
+    /* background-color: red; */
+    max-width: calc(100% - 200px);
+    float: left;
+}
+
+.container-box {
+    min-height: 800px;
+}

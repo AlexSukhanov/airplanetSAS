@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    line-height: 1.42em;
+}
+
+body {
+    font-family: 'Roboto-light';
+    font-size: 18px;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
