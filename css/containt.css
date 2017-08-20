@@ -1,4 +1,4 @@
-.main-containt {
+    .main-containt {
     /* background-color: red; */
     max-width: calc(100% - 200px);
     float: left;
@@ -7,3 +7,48 @@
 .container-box {
     min-height: 800px;
 }
+
+.bread-crumbs__main-link {
+    color: #1c5bc3;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.bread-crumbs__reviews {
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.feedback {
+    border-bottom: 1px solid #f5f5f5;
+    width: 100%;
+}
+
+.feedback__foto {
+    border-radius: 50%;
+    float: left;
+}
+
+.feedback__date {
+    font-size: 14px;
+    font-weight: 300;
+    color: #656464;
+}
+
+.feedback__name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #221f1f;
+}
+
+.feedback__text {
+    font-size: 18px;
+    font-weight: 300;
+    color: #221f1f;
+}
+
+.text {
+    float: left;
