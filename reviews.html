@@ -3,43 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1100, initial-scale=1.0">
+    <meta name="viewport" content="width=1140, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <!--[if lt IE 8]>
+    <p class="chromeframe">Похоже, что ты используешь
+        устаревший браузер, друг. Пожалуйста, <a href="http://
+browsehappy.com/">скачай новый браузер абсолютно
+            бесплатно</a> или <a href="http://www.google.com/
+chromeframe/?redirect=true">активируй Google Chrome Frame</a></p>
+    <![endif]-->
+
 
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="container">
-            <header class="header">
-                <div class="center-block">
-                    <div class="header__logo">
-                        <img src="images/logo/logo_header.png" alt="" class="header__logo-pic">
-                    </div>
-                    <div class="contact">
-                        <phone tel="88000039210" class="contact__phone">
-                            8 (800) 00-392-10
-                        </phone>
-                        <span class="contact__schulde">
+
+        <!-- header -->
+
+
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <img src="images/logo/logo_header.png" alt="" class="header__logo-pic">
+                </div>
+                <div class="contact">
+                    <a href="tel:88000039210" class="contact__phone"> 8 (800) 00-392-10</a>
+                    <span class="contact__schulde">
                             график работы
                         </span>
-                    </div>
                 </div>
-            </header>
-            <div class="container-box clearfix center-block">
+            </div>
+        </header>
+
+
+        <div class="container clearfix">
+
+
                 <aside class="aside">
                     <nav class="nav">
                         <a href="#" class="nav-link">
-                            <div class="nav-link__icon-main">
+                            <div class="nav-link__icon">
                                 <img src="images/icons/main_icon_black.png" alt="">
                             </div>
-                            <div class="nav-link__text black">
+                            <div class="nav-link__text">
                                 главная
                             </div>
                         </a>
                         <a href="crew.html" class="nav-link">
-                            <div class="nav-link__icon-crew">
+                            <div class="nav-link__icon">
                                 <img src="images/icons/team_icon.png" alt="">
                             </div>
                             <div class="nav-link__text">
@@ -47,7 +61,7 @@
                             </div>
                         </a>
                         <a href="reviews.html" class="nav-link">
-                            <div class="nav-link__icon-reviews">
+                            <div class="nav-link__icon">
                                 <img src="images/icons/feed_icon.png" alt="">
                             </div>
                             <div class="nav-link__text">
@@ -63,19 +77,20 @@
 
                     <div class="bread-crumbs">
                         <a href="main.html" class="bread-crumbs__main-link">
-                            Главная /
+                            Главная
                         </a>
                         <span class="bread-crumbs__reviews">
-                            Отзывы
+                            /Отзывы
                         </span>
                     </div>
 
                     <!-- reviews -->
 
                     <div class="main-containt__reviews">
-                        <div class="feedback clearfix">
+                        <h1 class="review__title">Отзывы</h1>
+                        <div class="feedback">
                             <img class="feedback__foto" src="images/foto/iren.jpg" alt="фото клиента">
-                            <div class="text">
+                            <div class="feedback__info">
                                 <div class="feedback__date">
                                     12.10.2016
                                 </div>
@@ -89,39 +104,48 @@
                         </div>
                         <div class="feedback">
                             <img class="feedback__foto" src="images/foto/alex.jpg" alt="фото клиента">
-                            <div class="feedback__date">
-                                01.02.2016
+                            <div class="feedback__info">
+                                <div class="feedback__date">
+                                    01.02.2016
+                                </div>
+                                <div class="feedback__name">
+                                    Александр Бельков
+                                </div>
+                                <div class="feedback__text">
+                                    Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 2 раза, а еду – 1 раз. Единственное, что не понравилось, как то мало места для ног, но с этим у меня часто проблема, рост 2,1м.
+                                </div>
                             </div>
-                            <div class="feedback__name">
-                                Александр Бельков
-                            </div>
-                            <div class="feedback__text">
-                                Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 2 раза, а еду – 1 раз. Единственное, что не понравилось, как то мало места для ног, но с этим у меня часто проблема, рост 2,1м.
-                            </div>
+
                         </div>
                         <div class="feedback">
                             <img class="feedback__foto" src="images/foto/Ellipse.png" alt="фото клиента">
-                            <div class="feedback__date">
-                                22.12.2015
+                            <div class="feedback__info">
+                                <div class="feedback__date">
+                                    22.12.2015
+                                </div>
+                                <div class="feedback__name">
+                                    Игорь Николаенко
+                                </div>
+                                <div class="feedback__text">
+                                    Не кормили вообще! Сказали, что это из-за того, что полет менее 2,5 часов. Но прибавьте к этому время регистрации в аэропорту. Летел с женой и мы очень проголодались. Просто имейте это ввиду, берите с собой хотя бы бутерброды, чипсы какие-то или печенье.
+                                </div>
                             </div>
-                            <div class="feedback__name">
-                                Игорь Николаенко
-                            </div>
-                            <div class="feedback__text">
-                                Не кормили вообще! Сказали, что это из-за того, что полет менее 2,5 часов. Но прибавьте к этому время регистрации в аэропорту. Летел с женой и мы очень проголодались. Просто имейте это ввиду, берите с собой хотя бы бутерброды, чипсы какие-то или печенье.
-                            </div>
+
                         </div>
                         <div class="feedback">
                             <img class="feedback__foto" src="images/foto/nasty.jpg" alt="фото клиента">
-                            <div class="feedback__date">
-                                14.08.2015
+                            <div class="feedback__info">
+                                <div class="feedback__date">
+                                    14.08.2015
+                                </div>
+                                <div class="feedback__name">
+                                    Анастасия Порядная
+                                </div>
+                                <div class="feedback__text">
+                                    За такую цену просто все отлично! Кто недоволен, платите в 2 раза больше за аналогичные рейсы. Мне понравилось, что на борту было чисто, я аллергик и всегда чутко реагирую на пыль. Спасибо за полет! Рекомендую!
+                                </div>
                             </div>
-                            <div class="feedback__name">
-                                Анастасия Порядная
-                            </div>
-                            <div class="feedback__text">
-                                За такую цену просто все отлично! Кто недоволен, платите в 2 раза больше за аналогичные рейсы. Мне понравилось, что на борту было чисто, я аллергик и всегда чутко реагирую на пыль. Спасибо за полет! Рекомендую!
-                            </div>
+
                         </div>
                     </div>
 
@@ -188,18 +212,56 @@
                     </div>
 
                 </div>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- footer -->
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-text">
+                   <p class="footer-text__string">
+                       Сделано с любовью и старанием
+                   </p>
+                   <p class="footer-text__string">
+                       на курсе «HTML + CSS» в 
+                        <a href="https://loftschool.com/" class="footer-text__string_link">
+                            LoftSchool.
+                        </a> 
+                   </p>
+                   <p class="footer-text__string">
+                       Автор работы: 
+                            <span class="footer-text__string_bold">
+                                Прохладов Вадим
+                            </span>
+                   </p>                  
+                </div>
+                <div class="footer-logo">
+                    <img src="images/logo/logo_header.png" alt="Logo" class="footer-logo__img">
+                </div>
+                <div class="footer-social">
+                    <span class="footer-social__text">
+                        Наши социальные сети
+                    </span>
+                    <div class="footer-social__icons">
+
+                    </div>
+                </div>
             </div>
 
+        </footer>
 
-            <!-- footer -->
 
-            <footer class="footer">
-                <div class="center-block">
 
-                </div>
 
-            </footer>
 
 </body>
 
 </html>
+
+

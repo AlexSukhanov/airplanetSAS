@@ -1,4 +1,27 @@
 .footer {
     height: 77px;
     background-color: #1c5bc3;
+    margin-top: -77px;
+}
+
+.footer-text {
+  float: left;
+  width: 34%;
+  height: 100%;
+}
+
+.footer-logo {
+  float: left;
+  width: 33%;
+  height: 100%;
+}
+
+.footer-logo__img {
+  padding-top: 20px;
+}
+
+.footer-social {
+  float: left;
+  width: 33%;
+  height: 100%;
 }

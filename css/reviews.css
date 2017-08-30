@@ -1,11 +1,18 @@
-    .main-containt {
+.main-containt {
     /* background-color: red; */
     max-width: calc(100% - 200px);
     float: left;
 }
 
+.main-containt__reviews {
+    margin-bottom: 50px;
+}
 .container-box {
     min-height: 800px;
+}
+
+.bread-crumbs {
+    margin-top: 45px;
 }
 
 .bread-crumbs__main-link {
@@ -22,26 +29,45 @@
     font-style: italic;
 }
 
+.review__title {
+    font-size: 50px;
+    font-family: 'Roboto-Bold';
+    color: #221f1f;
+}
+
 .feedback {
     border-bottom: 1px solid #f5f5f5;
     width: 100%;
+    padding: 30px 0;
+    font-size: 0;
 }
 
 .feedback__foto {
     border-radius: 50%;
-    float: left;
+    display: inline-block;
+    width: 160px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.feedback__info {
+    display: inline-block;
+    max-width: 700px;
+    vertical-align: middle;
 }
 
 .feedback__date {
     font-size: 14px;
     font-weight: 300;
     color: #656464;
+    margin-bottom: 15px;
 }
 
 .feedback__name {
     font-size: 18px;
-    font-weight: bold;
+    font-family: 'Roboto-Bold';
     color: #221f1f;
+    margin-bottom: 25px;
 }
 
 .feedback__text {
@@ -49,6 +75,3 @@
     font-weight: 300;
     color: #221f1f;
 }
-
-.text {
-    float: left;

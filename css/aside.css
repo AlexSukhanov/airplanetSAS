@@ -7,24 +7,27 @@
     height: 200px;
     width: 200px;
     float: left;
+    margin-top: 45px;
+}
+
+.nav-link__icon {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .nav-link__text {
     font-size: 12px;
-    font-weight: bold;
+    font-family: 'Roboto-Bold';
     color: #1c5bc3;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 20px;
 }
 
 .nav-link {
     text-decoration: none;
+    display: block;
+    margin-bottom: 30px;
 }
-
-
-/* .nav-link__icon-main {
-    background-image: url("images/icons/main_icon_black.png")
-} */
-
-
-/* .black {
-    color: #221f1f;
-} */

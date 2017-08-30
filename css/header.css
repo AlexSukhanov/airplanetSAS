@@ -31,6 +31,8 @@
 .contact__phone {
     font-size: 21px;
     font-family: 'Roboto-Bold';
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .contact__schulde {
