@@ -8,12 +8,27 @@
   float: left;
   width: 34%;
   height: 100%;
+  color: #ffffff;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.footer-text__string_link {
+  color: #ffffff;
+  font-family: 'Roboto-Bold';
+  font-size: 14px;
+}
+
+.footer-text__string_bold {
+  font-family: 'Roboto-Bold';
+  font-size: 14px;
 }
 
 .footer-logo {
   float: left;
   width: 33%;
   height: 100%;
+  text-align: center;
 }
 
 .footer-logo__img {
@@ -24,4 +39,13 @@
   float: left;
   width: 33%;
   height: 100%;
+  text-align: right;
+  color: #ffffff;
+  font-size: 14px;
+  padding-top: 17px;
+}
+
+.footer-social__text {
+  font-family: 'Roboto-Bold';
+  font-size: 14px;
 }

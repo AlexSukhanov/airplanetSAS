@@ -1,14 +1,11 @@
-.main-containt {
+.main-content {
     /* background-color: red; */
-    max-width: calc(100% - 200px);
+    max-width: calc(100% - 180px);
     float: left;
 }
 
-.main-containt__reviews {
+.main-content__reviews {
     margin-bottom: 50px;
-}
-.container-box {
-    min-height: 800px;
 }
 
 .bread-crumbs {

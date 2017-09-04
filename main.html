@@ -1,75 +1,201 @@
 <!DOCTYPE html>
 <html lang="ru-RU">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1100, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-
+    <!--[if lt IE 8]>
+    <p class="chromeframe">Похоже, что ты используешь
+        устаревший браузер, друг. Пожалуйста, <a href="http://
+browsehappy.com/">скачай новый браузер абсолютно
+            бесплатно</a> или <a href="http://www.google.com/
+chromeframe/?redirect=true">активируй Google Chrome Frame</a></p>
+    <![endif]-->
 </head>
-
 <body>
-    <div class="wrapper">
+<div class="wrapper">
+
+    <!-- header -->
+
+    <header class="header">
         <div class="container">
-            <header class="header">
-                <div class="center-block">
-                    <div class="header__logo">
-                        <img src="images/logo/logo_header.png" alt="" class="header__logo-pic">
-                    </div>
-                    <div class="contact">
-                        <phone class="contact__phone">
-                            8 (800) 00-392-10
-                        </phone>
-                        <span class="contact__schulde">
+            <div class="header__logo">
+                <img src="images/logo/logo_header.png" alt="" class="header__logo-pic">
+            </div>
+            <div class="contact">
+                <a href="tel:88000039210" class="contact__phone"> 8 (800) 00-392-10</a>
+                <span class="contact__schulde">
                             график работы
                         </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- main content -->
+
+    <div class="container clearfix">
+        <aside class="aside">
+            <nav class="nav">
+                <a href="#" class="nav-link">
+                    <div class="nav-link__icon">
+                        <img src="images/icons/main_icon_black.png" alt="">
+                    </div>
+                    <div class="nav-link__text">
+                        главная
+                    </div>
+                </a>
+                <a href="crew.html" class="nav-link">
+                    <div class="nav-link__icon">
+                        <img src="images/icons/team_icon.png" alt="">
+                    </div>
+                    <div class="nav-link__text">
+                        экипаж
+                    </div>
+                </a>
+                <a href="reviews.html" class="nav-link">
+                    <div class="nav-link__icon">
+                        <img src="images/icons/feed_icon.png" alt="">
+                    </div>
+                    <div class="nav-link__text">
+                        отзывы
+                    </div>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- content -->
+
+        <div class="main-content">
+            <div class="content">
+                <div class="content-img">
+                    <img src="images/foto/about.jpg" alt="foto" class="content-img_lay">
+                    <h1 class="content-img__text">
+                        О компании
+                    </h1>
+                </div>
+                <div class="content-text">
+                    <p class="content-text__paragraph">
+                        <span class="content-text_bold">Air Planet</span>
+                        <span class="content-text_text">— это крупнейшая авиакомпания в Москве. Благодаря сотрудничеству с</span>
+                        <span class="content-text_bold">Europe Airlines.</span>
+                        <span class="content-text_text">, мы предлагаем билеты на комфортабельные рейсы в большинство известных курортных городов Западной Европы. Также мы сотрудничаем с американскими и австралийскими авиакомпаниями, за счет чего обеспечиваем возможность заказа билетов на рейсы практически в любую точку мира.</span>
+                    </p>
+                    <p class="content-text__paragraph">
+                    <ul class="content-text__list"> Нашими ключевыми клиентами остаются:
+
+                        <li class="content-text__list_item">
+                            <div class="content-text__list_dot"></div>
+                            Частные лица — туристы и путешественники, как самостоятельные, так и организованные турфирмами.
+                        </li>
+                        <li class="content-text__list_item">
+                            <div class="content-text__list_dot"></div>
+                            Коммерческие организации, которые отправляют своих сотрудников в командировки. За счет отлаженной логистики мы готовы предложить наиболее выгодные цены.
+                        </li>
+                    </ul>
+                    </p>
+
+                    <p class="content-text__paragraph">Поездки в столицы европейских стран осуществляются без пересадок. На дальние расстояния мы предлагаем оптимальные маршруты, с тщательным расчетом времени пересадки.</p>
+                    <p class="content-text__paragraph">Оплата билетов осуществляется любым удобным способом – банковской картой, денежным переводом или наличными. Регулярно проводятся акции и скидки, особенно на раннее бронирование и оптовые заказы.</p>
+                    <p class="content-text__paragraph"> Наши аналитики исследуют рынок и помогают составить оптимальные маршруты, с учетом особенностей региона и других факторов.</p>
+                    <p class="content-text__paragraph">Наши постоянные клиенты участвуют в бонусной программе и при накоплении достаточной суммы на своем виртуальном счету, могут оплатить билет бонусными баллами.</p>
+                </div>
+
+                    <div class="content-request">
+                        <span class="content-request__text">
+                            Бронировать билеты в нашей авиакомпании удобно. Для этого можно оставить
+                            <a href="#" class="content-request__link">
+                                заявку на сайте
+                            </a> или же позвонить по номеру круглосуточной
+                            поддержки
+                            <a href="tel:88000039210" class="content-request__tel">
+                            8 (800) 00-392-10
+                            </a>.
+                        </span>
+                    </div>
+                <div class="content-partners">
+                    <h2 class="content-partners__text">
+                        Партнёры
+                    </h2>
+                    <div class="content-partners__img">
+                        <ul class="content-partners__img_list clearfix">
+                            <li class="content-partners__img_item">
+                                <a href="#" class="content-partners__img_link">
+                                    <img src="images/partners/bmp.png" alt="" class="content-partners__images">
+                                </a>
+                            </li>
+                            <li class="content-partners__img_item">
+                                <a href="#" class="content-partners__img_link">
+                                    <img src="images/partners/tetra.png" alt="" class="content-partners__images">
+                                </a>
+                            </li>
+                            <li class="content-partners__img_item">
+                                <a href="#" class="content-partners__img_link">
+                                    <img src="images/partners/siberian.png" alt="" class="content-partners__images">
+                                </a>
+                            </li>
+                            <li class="content-partners__img_item">
+                                <a href="#" class="content-partners__img_link">
+                                    <img src="images/partners/oneair.png" alt="" class="content-partners__images">
+                                </a>
+                            </li>
+                            <li class="content-partners__img_item">
+                                <a href="#" class="content-partners__img_link">
+                                    <img src="images/partners/bingair.png" alt="" class="content-partners__images">
+                                </a>
+                            </li>
+                            <li class="content-partners__img_item">
+                                <a href="#" class="content-partners__img_link">
+                                    <img src="images/partners/ural.png" alt="" class="content-partners__images">
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </header>
-            <div class="container-box clearfix center-block">
-                <aside class="aside">
-                    <nav class="nav">
-                        <a href="#" class="nav-link">
-                            <div class="nav-link__icon-main">
-                                <img src="images/icons/main_icon_black.png" alt="">
-                            </div>
-                            <div class="nav-link__text black">
-                                главная
-                            </div>
-                        </a>
-                        <a href="crew.html" class="nav-link">
-                            <div class="nav-link__icon-crew">
-                                <img src="images/icons/team_icon.png" alt="">
-                            </div>
-                            <div class="nav-link__text">
-                                экипаж
-                            </div>
-                        </a>
-                        <a href="reviews.html" class="nav-link">
-                            <div class="nav-link__icon-reviews">
-                                <img src="images/icons/feed_icon.png" alt="">
-                            </div>
-                            <div class="nav-link__text">
-                                отзывы
-                            </div>
-                        </a>
-                    </nav>
-                </aside>
-                <div class="main-contant">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum enim ut doloribus, similique aut ipsa sapiente illum. Odit reprehenderit pariatur voluptate dolorem nulla deleniti eaque provident ab quidem distinctio, fuga dolore molestias aspernatur
-                    dicta explicabo in nam, cupiditate! Assumenda magnam temporibus, nemo ducimus modi, nobis. Placeat, iste aperiam illum excepturi!
-                </div>
             </div>
-            <footer class="footer">
-                <div class="center-block">
 
-                </div>
 
-            </footer>
+
         </div>
     </div>
+</div>
 
+
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-text">
+                   <span class="footer-text__string">
+                       Сделано с любовью и старанием
+                   </span><br>
+                <span class="footer-text__string">
+                       на курсе «HTML + CSS» в
+                        <a href="https://loftschool.com/" class="footer-text__string_link">
+                            LoftSchool.
+                        </a>
+                   </span><br>
+                <span class="footer-text__string">
+                       Автор работы:
+                            <span class="footer-text__string_bold">
+                                Прохладов Вадим
+                            </span>
+                   </span>
+            </div>
+            <div class="footer-logo">
+                <img src="images/logo/logo_header.png" alt="Logo" class="footer-logo__img">
+            </div>
+            <div class="footer-social">
+                    <span class="footer-social__text">
+                        Наши социальные сети
+                    </span>
+                <div class="footer-social__icons">
+
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>
