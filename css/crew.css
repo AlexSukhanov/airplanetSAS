@@ -1,0 +1,13 @@
+.crew-content {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.crew-content__item {
+  /*float: left;*/
+  width: 33%;
+  text-align: center;
+  /*max-height: 580px;*/
+
+}
