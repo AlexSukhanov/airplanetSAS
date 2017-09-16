@@ -10,14 +10,59 @@
     margin-top: 45px;
 }
 
+
+.nav-main__hover div
+{
+    background: url(../images/icons/main_icon.png) no-repeat;
+}
+
+.nav-main__hover:hover > .nav-link__icon
+{
+    background: url(../images/icons/main_icon_black.png) no-repeat;
+}
+
+.nav-team__hover div
+{
+    background: url(../images/icons/team_icon.png) no-repeat;
+}
+
+.nav-team__hover:hover > .nav-link__icon
+{
+    background: url(../images/icons/team_icon_black.png) no-repeat;
+}
+
+.nav-feed__hover div
+{
+    background: url(../images/icons/feed_icon.png) no-repeat;
+}
+
+.nav-feed__hover:hover > .nav-link__icon
+{
+    background: url(../images/icons/feed_icon_black.png) no-repeat;
+}
+
+
+.nav-link:hover  > .nav-link__text
+{
+    color: #221f1f
+}
+
+
+
+
+
+
 .nav-link__icon {
     display: inline-block;
     vertical-align: middle;
+    width: 23px;
+    height: 18px;
+
 }
 
 .nav-link__text {
     font-size: 12px;
-    font-family: 'Roboto-Bold';
+    font-family: 'Roboto-Bold', 'sans-serif';
     color: #1c5bc3;
     display: inline-block;
     vertical-align: middle;
@@ -30,4 +75,6 @@
     text-decoration: none;
     display: block;
     margin-bottom: 30px;
+
 }
+
