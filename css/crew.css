@@ -1,6 +1,12 @@
 .crew-content {
   display: flex;
   flex-wrap: wrap;
+}
+
+.crew-content__caption {
+  font-size: 50px;
+  font-family: 'Roboto-Bold';
+  color: #221f1f;
 
 }
 
@@ -9,5 +15,23 @@
   width: 33%;
   text-align: center;
   /*max-height: 580px;*/
-
 }
+
+.crew-content__item_name {
+  font-size: 18px;
+  font-family: 'Roboto-Bold';
+  color: #221f1f;
+}
+
+.crew-content__item_position {
+  font-family: 'Roboto-Bold';
+  font-size: 14px;
+  color: #1c5bc3;
+}
+
+.crew-content__item_text {
+  font-family: 'Roboto-light';
+  color: #221f1f;
+  font-size: 14px;
+}
+

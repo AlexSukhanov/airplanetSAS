@@ -3,22 +3,32 @@
 }
 
 .aside {
-    /* background-color:green; */
-
     width: 180px;
     float: left;
     margin-top: 45px;
 }
 
+
+
 .nav-link__icon {
     display: inline-block;
     vertical-align: middle;
+    height: 15px;
+    width: 18px;
+}
+
+.nav-link__icon__main {
+    background: url("../images/icons/main_icon_.png") 50% 50% no-repeat;
+}
+
+.nav-link__icon:hover {
+    background: url("../images/icons/main_icon_black.png") 50% 50% no-repeat;
 }
 
 .nav-link__text {
     font-size: 12px;
     font-family: 'Roboto-Bold';
-    color: #1c5bc3;
+    color: #1c5bc3 ;
     display: inline-block;
     vertical-align: middle;
     text-transform: uppercase;
@@ -30,4 +40,12 @@
     text-decoration: none;
     display: block;
     margin-bottom: 30px;
+}
+
+.nav-link__text:hover {
+    color: #221f1f;
+}
+
+.nav-link.active .nav-link__text {
+    color: #221f1f;
 }
