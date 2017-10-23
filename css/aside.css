@@ -8,21 +8,32 @@
     margin-top: 45px;
 }
 
-
-
 .nav-link__icon {
     display: inline-block;
     vertical-align: middle;
-    height: 15px;
-    width: 18px;
+    height: 19px;
+    width: 24px;
+    background: url('../images/icons/sprite.png') 0 0 no-repeat;
 }
 
-.nav-link__icon__main {
-    background: url("../images/icons/main_icon_.png") 50% 50% no-repeat;
+.nav-link:hover .nav-link__icon {
+    background-position-y: -100px;
 }
 
-.nav-link__icon:hover {
-    background: url("../images/icons/main_icon_black.png") 50% 50% no-repeat;
+.nav-link:hover .nav-link__text {
+    color: #221f1f;
+}
+
+.nav-link__text:hover .test {
+    font-size: 100px;
+}
+
+.nav-link__icon_crew {
+    background-position-x: -100px ;
+}
+
+.nav-link__icon_star {
+    background-position-x: -200px ;
 }
 
 .nav-link__text {
@@ -42,10 +53,10 @@
     margin-bottom: 30px;
 }
 
-.nav-link__text:hover {
+.nav-link.active .nav-link__text {
     color: #221f1f;
 }
 
-.nav-link.active .nav-link__text {
-    color: #221f1f;
+.nav-link.active .nav-link__icon {
+    background-position-y: -100px;
 }
