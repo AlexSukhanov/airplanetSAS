@@ -48,4 +48,18 @@
 .footer-social__text {
   font-family: 'Roboto-Bold';
   font-size: 14px;
+
 }
+
+.footer-social_link {
+  opacity: 0.8;
+  display: inline-block;
+  text-align: right;
+  padding-left: 10px;
+}
+
+.footer-social_link:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
