@@ -42,12 +42,13 @@
   text-align: right;
   color: #ffffff;
   font-size: 14px;
-  padding-top: 17px;
+  margin-top: 12px;
 }
 
 .footer-social__text {
   font-family: 'Roboto-Bold';
   font-size: 14px;
+  margin-bottom: 5px;
 
 }
 

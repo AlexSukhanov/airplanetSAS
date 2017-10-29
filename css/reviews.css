@@ -67,8 +67,52 @@
     margin-bottom: 25px;
 }
 
+.main-content__paginator {
+    text-align: center;
+    margin-top: 25px;
+}
+
 .feedback__text {
     font-size: 18px;
     font-weight: 300;
     color: #221f1f;
+}
+
+.paginator__text {
+    font-family: 'Roboto-light';
+    font-size: 14px;
+    position: absolute;
+    left: -125px;
+    line-height: 30px;
+}
+
+.paginator-list {
+    display: inline-block;
+    position: relative;
+
+}
+
+.paginator-list__item {
+    display: inline-block;
+    font-family: 'Roboto-bold';
+  font-size: 14px;
+  color: #221f1f;
+  width: 25px;
+  height: 25px;
+}
+
+.paginator-list__item:hover {
+  background-color: #1c5bc3;
+  color: white;
+  line-height: 27px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.paginator__active {
+  background-color: #1c5bc3;
+  color: white;
+  line-height: 27px;
+  border: 1px solid transparent;
+  border-radius: 2px;
 }

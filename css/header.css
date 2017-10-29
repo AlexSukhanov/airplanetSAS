@@ -26,6 +26,7 @@
     display: inline-block;
     vertical-align: middle;
     margin-top: 10px;
+  position: relative;
 }
 
 .contact__phone {
@@ -37,19 +38,81 @@
 
 .contact__schulde {
     display: block;
-    color: #fff;
-    opacity: 0.7;
     font-family: 'Roboto-Bold';
     font-size: 14px;
-    text-decoration: underline;
     position: relative;
 }
+.contact__link {
+  opacity: 0.7;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.contact__schulde:hover .contact__dropdown  {
+  display: block;
+}
+
+.contact__schulde:hover .contact__dropdown:before {
+  display: block;
+}
+
 
 .contact__dropdown {
     position: absolute;
     right: 0;
     width: 170px;
     height: 70px;
-    background-color: yellow;
     z-index: 100;
+  border: 1px solid white;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: white;
+  top: 40px;
+  display: none;
+}
+
+.contact__dropdown:before {
+  content: '';
+  width: 0;
+  height: 0;
+  /*background-color: yellow;*/
+  display: none;
+  position: absolute;
+  top: -16px;
+  right: 3px;
+  border-top: 0 solid transparent;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid white;
+}
+
+.contact__dropdown:after {
+  position: absolute;
+  content: '';
+  display: block;
+  height:30px;
+  left: 0;
+  right: 0;
+  top: -25px;
+  z-index: 1000;
+}
+
+.contact__dropdown_day {
+    font-family: 'Roboto-Bold';
+    font-size: 14px;
+    color: #1c5bc3;
+  display: block;
+  text-align: center;
+  height: 50%;
+  padding-top: 17px;
+}
+
+.contact__dropdown_dinner {
+    font-family: 'Roboto-light';
+    font-size: 14px;
+  display: block;
+  color: #221f1f;
+  text-align: center;
+  height: 50%;
+  padding-bottom: 19px;
 }
